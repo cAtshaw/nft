@@ -33,6 +33,10 @@ footer {
   text-align: center;
 }
 
+p {
+  line-height: 23px;
+}
+
 /* Headings throughout site */
 h1,
 h3 {
@@ -80,4 +84,37 @@ a {
 a:hover,
 a:active {
   color: #d4b44c;
+}
+
+/* Button CSS */
+
+.navbtn {
+  display: inline-block;
+  margin: 10px 0px;
+  padding: 10px 19px;
+  border-radius: 4.6px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.navbtnabout {
+  background-color: whitesmoke;
+  color: #5f29a3;
+}
+
+.navbtnbuy {
+  background-color: #5f29a3;
+  color: whitesmoke;
+}
+
+.navbtninfo,
+.navbtncont {
+  background-color: #d0aaff;
+  color: #5f29a3;
+}
+
+.navbtn:hover,
+.navbtn:active {
+  color: #2b283a;
+  background-color: #d4b44c;
 }
